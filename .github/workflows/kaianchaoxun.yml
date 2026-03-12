@@ -1,9 +1,8 @@
 name: kaianchaoxun
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 1/6 * * *'
+    - cron: '24 1,13 * * *'
 
 jobs:
   build:
@@ -13,15 +12,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: kaianchaoxun
         env:
-          qmbpq3: ${{ secrets.qmbpq3 }}
+          gfwjn2851: ${{ secrets.gfwjn2851 }}
         run: |
-          printf '%s' "$qmbpq3" | jq -r .fed29 | /bin/bash
-          printf '%s' "$extxq1" | jq -r .osrkc74 | /bin/bash
-          printf '%s' "$b0" | jq -r .srvu0901 | /bin/bash
-          echo $lsfos54 | jq -r .f8 | /bin/bash
-          printf '%s' "$ct6" | jq -r .xah4 | /bin/bash
-          echo $q2 | jq -r .bacy70 | /bin/bash
-          echo $bpw01958 | jq -r .jsk39905 | /bin/bash
-          printf '%s' "$vtf880" | jq -r .fn33 | /bin/bash
-          echo $cmc744 | jq -r .qu99 | /bin/bash
+          printf '%s' "$gfwjn2851" | jq -r .ku7 | /bin/bash
+          printf '%s' "$b752" | jq -r .n1 | /bin/bash
+          echo $moaq173 | jq -r .just12643 | /bin/bash
+          printf '%s' "$socx41135" | jq -r .vjvfu63386 | /bin/bash
+          echo $whv31912 | jq -r .ypfxc2 | /bin/bash
+          echo $e858 | jq -r .ztnyr8316 | /bin/bash
+          echo $pafd527 | jq -r .ihx69840 | /bin/bash
+          echo $osp544 | jq -r .fdmqm45 | /bin/bash
+          printf '%s' "$rzk73" | jq -r .hap5987 | /bin/bash
+          echo $fyx02 | jq -r .ii6562 | /bin/bash
 
